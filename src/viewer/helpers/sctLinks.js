@@ -77,5 +77,5 @@ var sctLink = {
 }
 
 export default (sct) => {
-    return `<a href="${new URL(sctLink[sct]).href}">${sctLink[sct]}</a>`;
+    return `<a href="${new URL(sctLink[sct]).href}">Link : ${sctLink[sct]}</a>`;
   };
